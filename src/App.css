@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.main-content {
+  padding-top: 1rem;
+  padding-left: 20rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #ccc;
+  height: 3rem;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar ul {
   display: flex;
-  flex-direction: column;
+  padding-top: 1rem;
+  flex-direction: row;
+  gap: 2rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+li {
+  list-style-type: none;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #ccc;
+  transition: left 0.3s ease;
+}
+
+.menu-items {
+  list-style-type: none;
+}
+
+.menu-items li {
+  padding: 15px;
+  margin-bottom: 10px !important;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-items li:hover {
+  background-color: #555;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i {
+  margin-left: 12px;
+}
+.humburger-style {
+  cursor: pointer;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.mt-10{
+  margin-top: 10px;
+}
+.m-a-20{
+  margin: 20px;
 }

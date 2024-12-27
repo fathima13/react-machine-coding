@@ -1,0 +1,57 @@
+.card-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  
+  .options > li > button {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* border: 1px solid grey; */
+  }
+  
+  .options > li > button:hover {
+    background-color: green;
+    color: white;
+  }
+  .button-disabled {
+    background-color: gray;
+  }
+  .on-selected {
+    background-color: goldenrod;
+  }
+
+  .action-buttons{
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;  
+    }
+
+    .action-button {
+        background: whitesmoke;
+        color: black;
+    }
+
+  
