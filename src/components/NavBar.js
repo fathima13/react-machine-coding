@@ -36,6 +36,20 @@ const SideMenu = () => {
           <li>
             <NavLink to="/progress-bar">ProgressBar</NavLink>
           </li>
+          <li>
+            <NavLink to="/multiple-timer">MultipleTimer</NavLink>
+          </li>
+          <li>
+            <NavLink to="/progress-bar-with-queue">
+              ProgressBar with Queue
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/folder-explorer">Folder Explorer</NavLink>
+          </li>
+          <li>
+            <NavLink to="/checkbox-nested-tree">Checkbox Nested Tree</NavLink>
+          </li>
         </ul>
       </div>
     </>

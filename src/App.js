@@ -12,7 +12,10 @@ import Carousel from "./components/Carousel/index";
 import CarouselWithTimer from "./components/CarouselWithTimer/carouselWithTimer";
 import Barchart from "./components/Barchart/Barchart";
 import ProgressBar from "./components/ProgressBar/ProgressBarContainer";
-
+import MultipleTimer from "./components/MultipleTimer/MultipleTimer";
+import ProgressBarWithQueue from "./components/ProgressBarWithQueue/ProgressBarWithQueue";
+import FolderExplorer from "./components/FolderExplorer/FolderExplorer";
+import CheckBoxNestedTree from "./components/CheckBoxNestedTree/index";
 const App = () => {
   return (
     <Router>
@@ -29,6 +32,16 @@ const App = () => {
           <Route path="/carousel-with-timer" element={<CarouselWithTimer />} />
           <Route path="/barchart" element={<Barchart />} />
           <Route path="/progress-bar" element={<ProgressBar />} />
+          <Route path="/multiple-timer" element={<MultipleTimer />} />
+          <Route
+            path="/progress-bar-with-queue"
+            element={<ProgressBarWithQueue />}
+          />
+          <Route path="/folder-explorer" element={<FolderExplorer />} />
+          <Route
+            path="/checkbox-nested-tree"
+            element={<CheckBoxNestedTree />}
+          />
         </Routes>
       </main>
     </Router>
