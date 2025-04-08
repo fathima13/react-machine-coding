@@ -34,6 +34,9 @@ const SideMenu = () => {
             <NavLink to="/barchart">Barchart</NavLink>
           </li>
           <li>
+            <NavLink to="/traffic-light">TrafficLight</NavLink>
+          </li>
+          <li>
             <NavLink to="/progress-bar">ProgressBar</NavLink>
           </li>
           <li>

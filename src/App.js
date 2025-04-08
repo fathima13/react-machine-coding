@@ -16,6 +16,8 @@ import MultipleTimer from "./components/MultipleTimer/MultipleTimer";
 import ProgressBarWithQueue from "./components/ProgressBarWithQueue/ProgressBarWithQueue";
 import FolderExplorer from "./components/FolderExplorer/FolderExplorer";
 import CheckBoxNestedTree from "./components/CheckBoxNestedTree/index";
+import TrafficLight from "./components/TrafficSignal/TrafficSignal";
+
 const App = () => {
   return (
     <Router>
@@ -42,6 +44,7 @@ const App = () => {
             path="/checkbox-nested-tree"
             element={<CheckBoxNestedTree />}
           />
+          <Route path="/traffic-light" element={<TrafficLight />} />
         </Routes>
       </main>
     </Router>
